@@ -1,6 +1,7 @@
 <div align="center">
-
-# 🏝️ Welcome to OzarLand
+<p align="center"><img src="https://raw.githubusercontent.com/OzarLand/ozarland/main/assets/ozarland-welcome-banner.jpg?v=2" alt="Welcome to OzarLand: signposts to the runbooks, deployment patterns, quick lab, operator skills and community, in front of an island city" width="100%"></p>
+  
+#  Welcome to OzarLand
 
 **What OpenStack operators learn running it: fixes, deployment choices, experience.**
 
