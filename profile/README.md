@@ -73,8 +73,10 @@ yet: read every page as a well-documented lead, not as a proven procedure.
 | ❓ | Ask the question you could not find answered |
 
 🌱 OzarLand started as a personal initiative by Soufian Zaouam to share practical OpenStack operational knowledge.
-It is meant to grow into a space where operators help each other run more reliable platforms: your knowledge,
-feedback and contributions are welcome. [Where OzarLand comes from](https://github.com/OzarLand/ozarland#-where-ozarland-comes-from)
+It is free, and meant to grow into a space where operators help each other run more reliable platforms: your
+knowledge, feedback and contributions are welcome. Felcloud, OzarLand's first sponsor, provides the cloud credit
+for the labs and has no say over the content.
+[Where OzarLand comes from](https://github.com/OzarLand/ozarland#-where-ozarland-comes-from)
 
 <sub>OzarLand is an independent community initiative, not affiliated with or endorsed by the OpenInfra Foundation or
 any vendor. Content under the Apache License 2.0.</sub>
