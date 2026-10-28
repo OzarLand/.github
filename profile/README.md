@@ -3,9 +3,10 @@
   
 #  Welcome to OzarLand
 
-**What OpenStack operators learn running it: fixes, deployment choices, experience.**
+**A shared land for better OpenStack operations.**
 
-An early-stage, independent space, open to everyone, whatever tool deployed your cloud.
+A community-driven space where OpenStack operators share what they learn running it: fixes, deployment choices,
+experience. Early-stage, independent, open to everyone, whatever tool deployed your cloud.
 
 <p>
   <a href="https://github.com/OzarLand/ozarland"><img src="https://img.shields.io/badge/start-here-f59e0b.svg" alt="Start here"></a>
@@ -35,7 +36,7 @@ An early-stage, independent space, open to everyone, whatever tool deployed your
 
 ```mermaid
 flowchart TB
-    HUB["🏝️ ozarland<br/>start here · rules · Discussions"]
+    HUB["ozarland<br/>start here · rules · Discussions"]
     HUB --> KB
     subgraph KB ["Knowledge and tools"]
         direction LR
@@ -70,6 +71,10 @@ yet: read every page as a well-documented lead, not as a proven procedure.
 | ✅ | Run a page on your platform and say what happened |
 | 🛠️ | Share a problem you solved |
 | ❓ | Ask the question you could not find answered |
+
+🌱 OzarLand started as a personal initiative by Soufian Zaouam to share practical OpenStack operational knowledge.
+It is meant to grow into a space where operators help each other run more reliable platforms: your knowledge,
+feedback and contributions are welcome. [Where OzarLand comes from](https://github.com/OzarLand/ozarland#-where-ozarland-comes-from)
 
 <sub>OzarLand is an independent community initiative, not affiliated with or endorsed by the OpenInfra Foundation or
 any vendor. Content under the Apache License 2.0.</sub>
