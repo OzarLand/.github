@@ -23,11 +23,13 @@ experience. Early-stage, independent, open to everyone, whatever tool deployed y
 
 | You are… | Go to |
 |---|---|
-| 🌱 **New to OpenStack** | [Newcomer path](https://github.com/OzarLand/ozarland/blob/main/newcomers/README.md): five short pages, read in order |
-| 🧪 **Want to try OpenStack** | [openstack-quick-lab](https://github.com/OzarLand/openstack-quick-lab): one VM, about one hour, one command to delete it |
-| 🔧 **Fixing a problem with a VM** | [VM runbooks](https://github.com/OzarLand/openstack-vm-runbooks#index): find your symptom, follow the steps |
-| 🏗️ **Deploying a platform** | [Deployment patterns](https://github.com/OzarLand/kolla-ansible-deployment-patterns#index): how platforms are built with Kolla-Ansible, and what each choice implies |
-| 🤖 **Using an AI assistant on call** | [openstack-operator-skills](https://github.com/OzarLand/openstack-operator-skills): Claude skills that apply this knowledge and say how well each procedure was tested |
+| 🌱 **New to OpenStack** | [LUMO's village](https://academy.ozarland.com/village/): the basic concepts told as a story, then the [newcomer path](https://github.com/OzarLand/ozarland/blob/main/newcomers/README.md): five short pages, read in order |
+| 🎓 **Learning step by step** | [OzarLand Academy](https://academy.ozarland.com/): one learning path, from a disposable lab to production and beyond |
+| 🧪 **Want to try OpenStack** | [Quick lab](https://academy.ozarland.com/lab/): one VM, about one hour, one command to delete it |
+| 🔧 **Fixing a problem with a VM** | [VM runbooks](https://academy.ozarland.com/runbooks/#index): find your symptom, follow the steps |
+| 🏗️ **Deploying a platform** | [Deployment patterns](https://academy.ozarland.com/deploy/#index): how platforms are built with Kolla-Ansible, and what each choice implies |
+| ⚙️ **Running Kolla-Ansible day to day** | [Kolla-Ansible Academy](https://academy.ozarland.com/day2/): what each day-2 command really does, studied from the source code, one study per release (Ussuri to 2025.1 Epoxy) |
+| 🤖 **Using an AI assistant on call** | [Operator skills](https://academy.ozarland.com/skills/): Claude skills that apply this knowledge and say how well each procedure was tested |
 | 🤝 **Ready to contribute** | [Your first contribution](https://github.com/OzarLand/ozarland/blob/main/newcomers/first-contribution.md): start with ten minutes |
 
 💬 A question? [Start a discussion](https://github.com/OzarLand/ozarland/discussions).
@@ -37,14 +39,21 @@ experience. Early-stage, independent, open to everyone, whatever tool deployed y
 ```mermaid
 flowchart TB
     HUB["ozarland<br/>start here · rules · Discussions"]
-    HUB --> KB
-    subgraph KB ["Knowledge and tools"]
-        direction LR
-        QL["🧪 openstack-quick-lab<br/>disposable lab"] -- "exercises use" --> RB["🔧 openstack-vm-runbooks<br/>symptom-driven runbooks"]
-        SK["🤖 openstack-operator-skills<br/>Claude skills"] -- "draws on" --> RB
-        SK -- "draws on" --> DP["🏗️ kolla-ansible-deployment-patterns<br/>how platforms are deployed"]
-    end
+    HUB --> AC
+    AC["🎓 ozarland-academy · academy.ozarland.com<br/>LUMO's village · quick lab · deployment patterns ·<br/>Kolla-Ansible day 2 · VM runbooks · production guide ·<br/>OKD lab · operator skills"]
+    BOOK["📖 openstack-the-day-after-tomorrow<br/>the book, source of many runbooks"] -. "draws on" .-> AC
 ```
+
+| Repository | What it holds |
+|---|---|
+| 🏠 [ozarland](https://github.com/OzarLand/ozarland) | Start here: the newcomer path, the community rules, the templates, the [Discussions](https://github.com/OzarLand/ozarland/discussions) |
+| 🎓 [ozarland-academy](https://github.com/OzarLand/ozarland-academy) | **[OzarLand Academy](https://academy.ozarland.com/)**, the whole learning path in one repository and one site |
+| 📖 [openstack-the-day-after-tomorrow](https://github.com/OzarLand/openstack-the-day-after-tomorrow) | [*OpenStack, the Day After Tomorrow*](https://book.ozarland.com/), a free book on operating mission-critical OpenStack platforms |
+
+📦 `openstack-quick-lab`, `kolla-ansible-deployment-patterns`, `openstack-vm-runbooks`, `production-guide`,
+`kolla-ansible-academy`, `okd-openstack-lab`, `openstack-upgrade-journeys` and `openstack-operator-skills` moved,
+with their history, into `ozarland-academy` in November 2026. They are archived (read-only) and their README points
+to the new place. [Current repositories](https://github.com/OzarLand/ozarland/blob/main/docs/repositories.md#current-repositories)
 
 ## 🔬 Every page says how much it was checked
 
